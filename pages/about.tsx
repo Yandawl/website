@@ -1,7 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
 import { motion } from 'framer-motion'
-import Navigation from '../components/navigation'
 import { Container, Row, Col, Card } from 'react-bootstrap'
 
 const ease = [0.43, 0.13, 0.23, 0.96]
@@ -53,8 +52,6 @@ export default function About() {
             <title>About</title>
             <link rel="icon" href="/favicon.ico" />
         </Head>
-
-        <Navigation />
 
         <motion.div variants={variants}>
             <Container>
