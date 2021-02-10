@@ -4,6 +4,7 @@ import { Container, Row, Col, Image } from 'react-bootstrap'
 import FadeInWhenVisible from '../components/animations/fadeInWhenVisible'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTwitter, faDiscord, faGithub } from '@fortawesome/free-brands-svg-icons'
+import Icon from '../components/icon'
 
 export default function Home() {
     return <>
@@ -47,35 +48,20 @@ export default function Home() {
                 <Row className="text-center">
                     <Col>
                         <FadeInWhenVisible delay={0.2}>
-                            <div className="icon gradient mb-4">
-                                <FontAwesomeIcon icon={faDiscord} />
-                            </div>
+                            <Icon><FontAwesomeIcon icon={faDiscord} /></Icon>
                             <h3>Discord</h3>
-                            <p>
-                                Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas
-                            </p>
                         </FadeInWhenVisible>
                     </Col>
                     <Col>
                         <FadeInWhenVisible delay={0.4}>
-                            <div className="icon gradient mb-4">
-                                <FontAwesomeIcon icon={faTwitter} />
-                            </div>
+                            <Icon><FontAwesomeIcon icon={faTwitter} /></Icon>
                             <h3>Twitter</h3>
-                            <p>
-                                Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas
-                            </p>
                         </FadeInWhenVisible>
                     </Col>
                     <Col>
                         <FadeInWhenVisible delay={0.6}>
-                            <div className="icon gradient mb-4">
-                                <FontAwesomeIcon icon={faGithub} />
-                            </div>
+                            <Icon><FontAwesomeIcon icon={faGithub} /></Icon>
                             <h3>GitHub</h3>
-                            <p>
-                                Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas
-                            </p>
                         </FadeInWhenVisible>
                     </Col>
                 </Row>

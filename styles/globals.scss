@@ -34,7 +34,6 @@ a {
 }
 
 .gradient {
-    background: rgb(187,70,0);
     background: linear-gradient(144deg, rgba(187,70,0,1) 0%, rgba(131,41,0,1) 100%);
 }
 
@@ -46,4 +45,5 @@ a {
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
